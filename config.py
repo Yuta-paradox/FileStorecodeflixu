@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7242573755:AAFivPZlZMhF6uR1Igsv8xgj1QZOKdsvbx0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7257731365:AAFhdjTj4Tn7VDnpP2e7hrRSfGsYKH6NN80")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23453747"))
@@ -16,31 +16,31 @@ APP_ID = int(os.environ.get("APP_ID", "23453747"))
 API_HASH = os.environ.get("API_HASH", "b13792b9973a3f93f29701dd9db5c881)
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002230964848"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002227689673"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Spy_radios")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5925363190"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7477655533"))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://akuljatav494:EIfRkLjN4UCxVE31@azfilestore.fi2yfad.mongodb.net/?retryWrites=true&w=majority&appName=Azfilestore")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://y2738784:cRdH8jUyFNBR0zi8@cluster0.trd8jls.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Filestorebot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002187973750"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002206511080"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002131408684"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002245762381"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
-    ADMINS=[0]
+    ADMINS=[6193451722]
     for x in (os.environ.get("ADMINS", "0").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(0)
+ADMINS.append(6193451722)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
