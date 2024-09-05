@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>deathNote</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Paradox_bots'>Paradox Bots</a>\n○ Ongoing channel : <a href='https://t.me/Ongoing_anime_zone_x10'>Ongoing Zone</a>\n○ Anime Channel : <a href='https://t.me/anime_zone_x10'>Anime Zone</a>\n○ Group : <a href='https://t.me/anime_zone_x1'>Zone Anime group</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Dev Yuta</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Paradox_bots'>Paradox Bots</a>\n○ Ongoing channel : <a href='https://t.me/Ongoing_Paradox'>Ongoing Paradox</a>\n○ Anime Channel : <a href='https://t.me/animes_Paradox'>Anime Paradox</a>\n○ Group : <a href='https://t.me/animes_Paradox_gang'> Anime group</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 Animes Channel', url='https://t.me/anime_zone_x10')
+                    InlineKeyboardButton('🍁 Movie Channel', url='https://t.me/Paradox_moviez')
                     ]
                 ]
             )
